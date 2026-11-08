@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E6D3"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvHaloKonfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo Nama,"
+        android:textColor="#3E2723"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Icon OK Dummy -->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#A5D6A7"
+        android:gravity="center"
+        android:text="OK"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tvPesanKonfirmasi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Pesan Konfirmasi -->
+    <TextView
+        android:id="@+id/tvPesanKonfirmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terima kasih sudah memesan tunggu aja sebentar kurir kami segera mengantarkan pesananmu!"
+        android:textAlignment="center"
+        android:textColor="#5D4037"
+        app:layout_constraintTop_toBottomOf="@+id/tvHaloKonfirmasi"
+        android:layout_marginTop="180dp"/>
+
+    <Button
+        android:id="@+id/btnOke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#3E2723"
+        android:text="Oke"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
