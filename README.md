@@ -9,7 +9,6 @@ Aplikasi mobile pemesanan kopi dan makanan ringan berdasarkan wireframe yang dib
 - **Home**: Menampilkan daftar menu (Makanan, Minuman, Dessert) menggunakan RecyclerView.
 - **Keranjang (Order)**: Menambahkan pesanan dengan pop-up jumlah, menampilkan total harga, dan menghapus item.
 - **Profile**: Mengedit data user, mengganti foto profil dari galeri, dan Logout.
-- **Konfirmasi Pesanan**: Halaman akhir setelah checkout.
 
 ## Teknologi yang Digunakan
 - **Bahasa**: Kotlin
