@@ -19,7 +19,7 @@ Aplikasi mobile pemesanan kopi dan makanan ringan berdasarkan wireframe yang dib
 1. Clone repository ini: `git clone https://github.com/Naufalt235/kiyoponKopiNyemil.git`
 2. Buka project di Android Studio.
 3. Tunggu proses Gradle Sync selesai.
-4. Jalankan aplikasi pada Emulator atau Perangkat Fisik dengan menekan tombol **Run** (Shift + F10).
+4. Jalankan aplikasi pada Emulator atau Perangkat Fisik
 
 ## Screenshot Tampilan Aplikasi
 
